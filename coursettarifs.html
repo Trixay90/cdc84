@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les cours</title>
+    <link href="./style.css" rel="stylesheet">
+    <script src="./script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" rel="stylesheet"> 
+</head>
+
+<body class="body-contact"> 
+    <div class="overlay-menu-mobile" onclick="closeMenuMobile()"></div>
+    <div class="header-container">
+        <div class="logoh1-container">
+            <img class="logo-header" src="./logos/Defense_600px-524px_noir.png" alt="logo">
+            <h1 class="mainh1">club défense combat 84</h1>
+        </div>
+        <nav class="header__nav">
+            <div class="header__nav__close" onclick="closeMenuMobile()">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </div>  
+            <ul class="menu-container" id="nav">
+                <li><a class="menu-element-li" href="./index.html">Accueil</a></li>
+                <li><a class="menu-element-li" href="./equipe.html">L'équipe</a></li>
+                <li><a class="menu-element-li" href="./coursettarifs.html">Les cours</a></li>
+                <li><a class="menu-element-li" href="./galerie.html">Galerie</a></li>
+                <li><a class="menu-element-li" href="./disciplines.html">nos disciplines</a></li>
+                <li><a class="menu-element-li" href="./agenda.html">agenda</a></li>
+                <li><a class="menu-element-li" href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header__burger" id="burger-menu" onclick="openMenuMobile()">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>              
+        </div>
+    </div>
+    <div class="cover-lescours3">
+            <div class="grid-adherents-container2">
+                <div class="nombre-adherents" id="nombre-adherents">Nombre d'adhérents</div>
+                <div class="chiffre-adherents" id="chiffre-adherents">97</div>
+                <div class="nombre-adherents-enfants" id="nombre-adherents-enfants">Enfants</div>
+                <div class="nombre-adherents-adultes" id="nombre-adherents-adultes">Adultes</div>
+                <div class="chiffre-adherents-enfant" id="chiffre-adherents-enfant">36</div>
+                <div class="chiffre-adherents-adultes" id="chiffre-adherents-adultes">61</div>
+            </div>
+    </div>
+
+    <div class="secondpart-container-lescours">
+
+        <div class="-h2-club2">
+            <h1 class="leclub">Les cours</h1>
+            <div class="underlinge-leclub2"></div>
+        </div>
+
+        <div class="flex-container-lescours">
+            <div class="flex-lescours-container">
+                <div class="flex-lescours-adultes">enfants</div>
+                <div class="flex-souscontainer">    
+                    <div class="flex-lescours-adultes-flexmardibedoin">Mardi <br> Le Thor <br> 17h15-18h15</div>
+                    <div class="flex-lescours-adultes-flex-trait"></div>
+                    <div class="flex-lescours-adultes-flexmardipernes">Mercredi <br> Bédoin <br> 10h30-11h30</div>
+                    <div class="flex-lescours-adultes-flex-trait"></div>
+                    <div class="flex-lescours-adultes-flexjeudipernes">Vendredi <br> Isle-sur-la-Sorgue <br> 18h30-19h30</div>
+                </div>
+            </div>
+            <div class="flex-lescours-container">
+                <div class="flex-lescours-adultes">Adultes</div>
+                <div class="flex-souscontainer">    
+                    <div class="flex-lescours-adultes-flexmardibedoin">Mardi <br> Bédoin <br> 19h30-21h</div>
+                    <div class="flex-lescours-adultes-flex-trait"></div>
+                    <div class="flex-lescours-adultes-flexmardipernes">Mardi <br> Pernes <br> 19h30-21h</div>
+                    <div class="flex-lescours-adultes-flex-trait"></div>
+                    <div class="flex-lescours-adultes-flexjeudipernes">Jeudi <br> Pernes <br> 19h30-21h</div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="dojo-container">
+            <div class="-h2-club3">
+                <h1 class="leclub">Les dojos</h1>
+                <div class="underlinge-leclub3"></div>
+            </div>
+        
+        </div>
+        <div class="grid-container-dojos2">
+            <div class="pernes-dojo2">
+                <h1 class="pernes-dojo">Pernes</h1>
+                <div class="pernes-dojos2-container">
+                    <img src="./images/dojos/dojopernes2.jpg" alt="" class="pernes-dojo2-img">
+                    <p class="pernes-dojo2-text">Av. R. Char</p>
+                    <p class="pernes-dojo2-text">Complexe Sportif</p>
+                    <p class="pernes-dojo2-text">84210 Pernes les Fontaines</p>
+                </div>
+            </div>
+            <div class="pernes-dojo2">
+                <h1 class="pernes-dojo">Bédoin</h1>
+                <div class="pernes-dojos2-container">
+                    <img src="./photos/coverdojobedoin.jpg" alt="" class="pernes-dojo2-img">
+                    <p class="pernes-dojo2-text">Ch. Du Vallat De Pommet</p>
+                    <p class="pernes-dojo2-text">84410 Bédoin</p>
+                </div>
+            </div>
+            <div class="pernes-dojo2">
+                <h1 class="pernes-dojo">Isle Sur La Sorgues</h1>
+                <div class="pernes-dojos2-container">
+                    <img src="./images/dojos/dojoisle2.jpg" alt="" class="pernes-dojo2-img">
+                    <p class="pernes-dojo2-text">Gymnase Ecole Mourna</p>
+                    <p class="pernes-dojo2-text">84800 L'Isle sur la Sorgue</p>
+                </div>
+            </div>
+            <div class="pernes-dojo2">
+                <h1 class="pernes-dojo">Le Thor</h1>
+                <div class="pernes-dojos2-container">
+                    <img src="./images/dojos/dojolethor2.jpg" alt="" class="pernes-dojo2-img">
+                    <p class="pernes-dojo2-text">Dojo du Gymnase</p>
+                    <p class="pernes-dojo2-text">84250 Le Thor</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>

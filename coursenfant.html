@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cours enfants</title>
+    <link href="./style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./lightbox.css">
+    <script src="./script2.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" rel="stylesheet"> 
+</head>
+
+<body class="body-gallery">
+    <div class="overlay-menu-mobile" onclick="closeMenuMobile()"></div>
+    <div class="header-container">
+        <div class="logoh1-container">
+            <img class="logo-header" src="./logos/Defense_600px-524px_noir.png" alt="logo">
+            <h1 class="mainh1">club défense combat 84</h1>
+        </div>
+        <nav class="header__nav">
+            <div class="header__nav__close" onclick="closeMenuMobile()">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </div>  
+            <ul class="menu-container" id="nav">
+                <li><a class="menu-element-li" href="./index.html">Accueil</a></li>
+                <li><a class="menu-element-li" href="./equipe.html">L'équipe</a></li>
+                <li><a class="menu-element-li" href="./coursettarifs.html">Les cours</a></li>
+                <li><a class="menu-element-li" href="./galerie.html">Galerie</a></li>
+                <li><a class="menu-element-li" href="./disciplines.html">nos disciplines</a></li>
+                <li><a class="menu-element-li" href="./agenda.html">agenda</a></li>
+                <li><a class="menu-element-li" href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header__burger" id="burger-menu" onclick="openMenuMobile()">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>              
+        </div>
+    </div>
+    <div class="body-container-photosgalerie">
+        <a href="./galerie.html" class="bouton-retourgalerie">
+            <div class="bouton-retour-galerie">
+            <h3 class="text-bouton-retour-galerie"> << Retour galerie</h3>
+        </a>
+    </div>
+    <div class="container-gallery">
+        <div class="gallery">
+            <a href="images/coursenfants/coursenfant1.jpg" data-lightbox="courenfant" data-title"courenfant" class="a-galerie-photo">
+                <img src="images/coursenfants/coursenfant1.jpg">
+            </a>
+            <a href="images/coursenfants/coursenfant2.jpg" data-lightbox="courenfant" data-title"courenfant" class="a-galerie-photo">
+                <img src="images/coursenfants/coursenfant2.jpg">
+            </a>
+            <a href="images/coursenfants/coursenfant3.jpg" data-lightbox="courenfant" data-title"courenfant" class="a-galerie-photo">
+                <img src="images/coursenfants/coursenfant3.jpg">
+            </a>
+            <a href="images/coursenfants/coursenfant4.jpg" data-lightbox="courenfant" data-title"courenfant" class="a-galerie-photo">
+                <img src="images/coursenfants/coursenfant4.jpg">
+            </a>
+            <a href="images/coursenfants/coursenfant5.jpg" data-lightbox="courenfant" data-title"courenfant" class="a-galerie-photo">
+                <img src="images/coursenfants/coursenfant5.jpg">
+            </a>
+            <a href="images/coursenfants/coursenfant6.jpg" data-lightbox="courenfant" data-title"courenfant" class="a-galerie-photo">
+                <img src="images/coursenfants/coursenfant6.jpg">
+            </a>
+        </div>
+    </div>
+    </div>
+
+ <script src="lightbox-plus-jquery.js"></script>
+</body>

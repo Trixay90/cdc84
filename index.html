@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link href="./style.css" rel="stylesheet">
+    <script src="./script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <div class="overlay-menu-mobile" onclick="closeMenuMobile()"></div>
+    <div class="header-container">
+        <div class="logoh1-container">
+            <img class="logo-header" src="./logos/Defense_600px-524px_noir.png" alt="logo">
+            <h1 class="mainh1">club défense combat 84</h1>
+        </div>
+        <nav class="header__nav">
+            <div class="header__nav__close" onclick="closeMenuMobile()">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </div>  
+            <ul class="menu-container" id="nav">
+                <li><a class="menu-element-li" href="./index.html">Accueil</a></li>
+                <li><a class="menu-element-li" href="./equipe.html">L'équipe</a></li>
+                <li><a class="menu-element-li" href="./coursettarifs.html">Les cours</a></li>
+                <li><a class="menu-element-li" href="./galerie.html">Galerie</a></li>
+                <li><a class="menu-element-li" href="./disciplines.html">nos disciplines</a></li>
+                <li><a class="menu-element-li" href="./agenda.html">agenda</a></li>
+                <li><a class="menu-element-li" href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header__burger" id="burger-menu" onclick="openMenuMobile()">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>              
+        </div>
+        
+    </div>
+
+    <div class="slide-container">
+        <div class="custom-slider fade">
+            <img src="./photos/carousel1.jpg" alt="" class="slide-img">
+            <a class="prev" onclick="plusSlides(-1)"> < </a>
+            <a class="next" onclick="plusSlides(1)"> > </a>
+        </div>
+        <div class="custom-slider fade">
+            <img src="./photos/carousel2.jpg" alt="" class="slide-img">
+            <a class="prev" onclick="plusSlides(-1)"> < </a>
+            <a class="next" onclick="plusSlides(1)"> > </a>
+        </div>
+        <div class="custom-slider fade">
+            <img src="./photos/carousel3.jpg" alt="" class="slide-img">
+            <a class="prev" onclick="plusSlides(-1)"> < </a>
+            <a class="next" onclick="plusSlides(1)"> > </a>
+        </div>
+        <div class="custom-slider fade">
+            <img src="./photos/carousel4.jpg" alt="" class="slide-img">
+            <a class="prev" onclick="plusSlides(-1)"> < </a>
+            <a class="next" onclick="plusSlides(1)"> > </a>
+        </div>
+    </div>
+    <br>
+    <div class="slide-dot">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+    <div class="second-part-container">
+        <div class="second-part-text">
+            <div class="second-part-text-container">
+                <p class="text-main"> <B>Présentation du Club </B></p>
+                <p class="secondtext">    Le Club Défense Combat 84 est bien plus qu'un simple club d'arts martiaux. C'est un lieu dédié à l'apprentissage et à la maîtrise des techniques de défense personnelle, conçu pour répondre aux besoins spécifiques de chacun, quels que soient l'âge, le niveau d'expérience ou les objectifs individuels.</p>
+            </div>
+            <div class="button-container">
+                <a class="button" href="/galerie.html">Voir la galerie</a>
+            </div>
+        </div>
+        <img src="./photos/présentation du club.jpg" alt="photos" class="second-part-img">
+    </div>
+
+    <div class="third-part-container">
+        <img src="./photos/nos disciplines2.jpg" alt="photos" class="third-part-img">
+        <div class="third-part-text">
+            <div class="third-part-text-container">
+                <p class="third-text-main"> <B>Nos Disciplines </B></p>
+                <p class="thirdtext">   Pour la partie self-défense, nous avons fait le choix de trois disciplines (Krav-maga, Kapap et SMA) qui ont faits leurs preuves par leur efficacité à travers le monde. Complémentaires, elles permettent d’avoir une approche globale et réaliste. Bien que ces disciplines amènent chacune une composante combat, nous avons décidé d’enrichir celle-ci avec le Karaté Mix.</p>
+            </div>
+            <div class="third-button-container">
+                <a class="third-button" href="/disciplines.html">Voir nos disciplines</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="fourth-part-container">
+        <img src="./photos/lequipe.jpg" alt="photos" class="fourth-part-img">
+        <div class="fourth-part-container">
+            <p class="fourth-text-main"> <B>L'équipe </B></p>
+            <p class="fourthtext">  Notre équipe, menée par Chris, est composée de 6 instructeurs passionnés et compétents. </p>
+        </div>
+        <div class="fourth-button-container">
+            <a class="fourth-button" href="/equipe.html">découvrez l'équipe</a>
+        </div>
+    </div>
+
+    <div class="fifth-part-container">
+        <img src="./logos/Defense_400px-350px_noir.png" alt="logo" class="logo-bottom">
+        <img src="./logos/Contact Défense.png" alt="logo" class="logo-bottom">
+        <img src="./logos/FFKarate_H_RVB.png" alt="logo" class="logo-bottom">
+        <img src="./logos/FFKMDA.png" alt= "logo" class="logo-bottom">
+        <img src="./logos/KAPAP.jpg" alt="logo" class="logo-bottom">
+    </div>
+</body>
+</html>
